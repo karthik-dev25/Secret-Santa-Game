@@ -1,0 +1,17 @@
+{
+  "name": "secret-santa-game",
+  "version": "1.0.0",
+  "description": "This is Secret Santa Game",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.14.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
