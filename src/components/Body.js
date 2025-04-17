@@ -15,11 +15,11 @@ const Body = () => {
     let output = generateSecretSantaList(fileData, prevYearData);
     generateJsonToXLSX(output);
   };
+
   return (
     <div className="w-6/12 m-auto text-center">
       <div className="font-bold text-2xl my-4 text-left">Secret Santa Game</div>
       <FileInput
-        file={fileData}
         setFileInput={(e) => setFileData(e)}
         setFileError={(e) => setError(e)}
       />
@@ -35,7 +35,6 @@ const Body = () => {
       </div>
       {IsPreInput && (
         <FileInput
-          file={prevYearData}
           setFileInput={(e) => setPrevYearData(e)}
           setFileError={(e) => setError(e)}
         />

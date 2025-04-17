@@ -3,7 +3,7 @@ import { useDropzone } from "react-dropzone";
 import * as XLSX from "xlsx";
 import { xlsxFileType } from "../utils/constants";
 
-const FileInput = ({ file, setFileInput, setFileError }) => {
+const FileInput = ({ setFileInput, setFileError,setFileName }) => {
   const [fileName, setFileName] = useState();
   const onDrop = useCallback((inputFile) => {
     if (inputFile[0].type !== xlsxFileType) {
