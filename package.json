@@ -11,10 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.4",
+    "file-saver": "^2.0.5",
     "parcel": "^2.14.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.4"
+    "react-dropzone": "^14.3.8",
+    "tailwindcss": "^4.1.4",
+    "xlsx": "^0.18.5"
   },
   "browserslist": [
     "last 2 versions"
